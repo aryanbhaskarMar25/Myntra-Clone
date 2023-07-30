@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+}
+
+.navbar
+{
+    height: 80px;
+    background-color: #FFFFFF;
+    color: #282C3f;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.border
+{
+    border: 5px solid transparent;
+    border-radius: 6px;
+}
+
+.border:hover
+{
+    border: 1.25px solid black;
+}
+
+.section1
+{
+    display: flex;
+    align-items: center;
+}
+
+.section2
+{
+    display: flex;
+    align-items: center;
+}
+
+.section3
+{
+    display: flex;
+    align-items: center;
+}
+
+.section4
+{
+    display: flex;
+    align-items: center;
+}
+
+.section5
+{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    background-color: #F5F5F6;
+    width: 600px;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: 90px;
+}
+
+.searchinput
+{
+    width: 100%;
+    background-color: #F5F5F6;
+    border: none;
+    border-radius: 4px;
+}
+
+.searchicon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+}
+
+.actions
+{
+    display: flex;
+}
+.profile
+{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.wishlist
+{
+    margin-right: 30px;
+    text-align: center;
+}
+
+.bag
+{
+    text-align: center;
+}
+
+.hero-section
+{
+    text-align: center;
+    background-image: url(hero.jpg);
+    height: 500px;
+    width: 1800px;
+}
+
+.section-content h1
+{
+    color: #282C3f;
+    font: sans-serif;
+    height: 150px;    
+    margin: 100px 25px 0 20px;
+}
+
+.shop-section
+{
+    display: flex;
+    justify-content: space-evenly;
+}
